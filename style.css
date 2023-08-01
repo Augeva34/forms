@@ -1,1 +1,52 @@
-#quadrado
+body{
+    background-color: rgb(122, 94, 148);
+    width: 920px;
+}
+
+#cabecalho{
+    display: flex;
+    justify-content: center;
+}
+
+#pergunta{
+    display: flex;
+   justify-content: center;
+   
+}
+
+#pergunta div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+label, input{
+margin-bottom: 10px;
+}
+button{
+    height:45px;
+    width: 100px;
+   }
+   input{
+    height: 50px;
+    width: 75px;
+    font-size: 25px;
+   }
+
+#resultado{
+    margin: 45px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.resultado{
+    border: 1px solid black;
+    width: 350px;
+    height: 500px;
+}
+ 
+#central{
+    display: flex;
+    justify-content: center
+    ;
+}
